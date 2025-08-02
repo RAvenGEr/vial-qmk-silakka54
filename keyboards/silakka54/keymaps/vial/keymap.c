@@ -22,6 +22,9 @@
       if (!mods) { rgblight_set_layer_state(1, false); }
     }
 #endif
+#ifdef RGB_MATRIX_ENABLE
+
+#endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
